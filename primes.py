@@ -30,3 +30,6 @@ def primesupto(N):
   while (S[-1] <= N):
     S = iterate(S)
   return S[:-1]
+
+def pi(N):
+  return len(primesupto(N))
