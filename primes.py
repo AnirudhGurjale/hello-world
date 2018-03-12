@@ -27,6 +27,6 @@ def primesupto(N):
   S = [2]
   if (N <= 1):
     return []
-  while (S[-1] < N):
+  while (S[-1] <= N):
     S = iterate(S)
   return S[:-1]
